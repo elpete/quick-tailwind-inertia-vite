@@ -1,0 +1,23 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+.env
+
+# logs + tests
+logs/**
+tests/results/**
+
+# npm
+**/node_modules/*
+# For this template, we don't want to lock in versions
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+## Ignored Dependencies
+coldbox/*
+testbox/*
+modules/*
+**/apidocs/**
+includes

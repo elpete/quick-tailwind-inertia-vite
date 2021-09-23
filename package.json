@@ -1,0 +1,30 @@
+{
+  "name": "coldbox-vite",
+  "version": "1.0.0",
+  "description": "Get started building a real application with Quick, cbauth, and cbguard. Power up your front end using Inertia.js, Vue, and Tailwind CSS.",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inertiajs/inertia": "^0.10.1",
+    "@inertiajs/inertia-vue3": "^0.5.2",
+    "vue": "^3.2.13",
+    "vue-meta": "^2.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.0",
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "tailwindcss": "^2.2.15",
+    "vite": "^2.5.10"
+  }
+}
