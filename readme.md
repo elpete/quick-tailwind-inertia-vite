@@ -28,8 +28,12 @@ Compile the assets using the provided package scripts:
 
 ```
 npm run dev
-# OR
-npm run watch
+```
+
+For production builds, use:
+
+```
+npm run build
 ```
 
 You can then type:
